@@ -194,9 +194,9 @@ class LibroDeCaja:
 
     def envioEmail(self):
         fecha = dt.today()
-        destinatario = 'nicoo.s7@hotmail.com'
-        remitente = 'nicoolorenzon7@hotmail.com'
-        passw = 'ElTorero10'
+        destinatario = 'nicoolorenzon7@hotmail.com'
+        remitente = ''
+        passw = '******'
         mensaje = f'''
 Ventas en Crédito: ${self.TOTAL_CREDITO}
 Ventas en Débito: ${self.TOTAL_DEBITO}
