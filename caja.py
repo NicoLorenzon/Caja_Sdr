@@ -27,13 +27,14 @@ while caja_inicial:
         print('Accion realizada'. center(50,'-'))
 
     elif eleccion == '3':
-        lista_tkt = []
-        lista_pagos = []
-        print(f'Inicio en Ticket número: ')
-
+        cerrar_caja = caja_inicial
+        cerra_caja.cerrarCaja()
+        print('Accion realizada'. center(50,'-'))
+        
     elif eleccion == '4':
-        das = caja_inicial
-        das.cerrarCaja()
-
+        email = caja_inicial
+        email.envioEmail()
+        print('Accion realizada'. center(50,'-'))
+        
     elif eleccion == '5':
         break
